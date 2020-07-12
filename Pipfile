@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymongo = "*"
+flask-restful = "*"
+requests = "*"
+gunicorn = "*"
+flask-jwt-extended = "*"
+flask-cors = "*"
+werkzeug = "*"
+python-docx = "*"
+docxtpl = "*"
+pytest = "*"
+itsdangerous = "*"
+flask-restful-swagger = "*"
+uuid = "*"
+pyopt = "*"
+pyotp = "*"
+faker = "*"
+six = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
