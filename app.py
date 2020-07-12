@@ -35,4 +35,4 @@ api.add_resource(Main, "/")
 api.add_resource(DenysPage, "/pages/DanysPage")
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=80)
+    app.run(host="0.0.0.0", port=8080)
